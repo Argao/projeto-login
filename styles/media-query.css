@@ -6,12 +6,12 @@ Small screens, laptops – 769px — 1024px.
 Desktops, large screens – 1025px — 1200px.
 Extra large screens, TV – 1201px, and more. */
 
-@media screen and (min-width:  481px) and (max-width: 1024px){
+@media screen and (min-width:  768px) and (max-width: 1024px){
 
     body{
         background-image: linear-gradient(to top, #49A09D, #5F2C82);
     }
-    
+
     section#login{
         width: 80vw;
     }
